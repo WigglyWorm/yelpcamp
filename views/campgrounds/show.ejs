@@ -17,7 +17,7 @@
                     <h4><a><%=campground.name%></a></h4>
                     <p><%= campground.description %></p>
                     <p>
-                        <em>Submitted By <%= campground.author.username %></em>
+                        <em>Submitted by: <%= campground.author.username %>, <%= moment(campground.createdAt).fromNow() %></em>
                     </p>
                     <% if(currentUser && campground.author.id.equals(currentUser._id)){ %>
                         <a class="btn btn-xs btn-warning" href="/campgrounds/<%= campground._id %>/edit">Edit</a>
@@ -36,7 +36,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <strong><%= comment.author.username %></strong>
-                            <span class="pull-right">10 days ago</span>
+                            <span class="pull-right"><%= moment(comment.createdAt).fromNow() %></span>
                             <p>
                                 <%= comment.text %> 
                             </p>
@@ -81,9 +81,7 @@
     });
   }
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrcu-5ogX57lczt6_4lBZaqPDtWk-I-oUcontent_copy
-&callback=initMap">
-    
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoKeqBpWdR00IcEjB3gUW7g3oXrbSoPIE&callback=initMap">
 </script>
 
 <% include ../partials/footer %>

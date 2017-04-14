@@ -1,5 +1,7 @@
 body {
   background-color: #000;
+  font-weight: bold;
+  text-shadow: 3px 3px 0px #000;
 }
 
 #landing-header h1 {
@@ -19,6 +21,7 @@ hr {
 .btn-success {
   background: #92324b;
   border-color: #7f2b41;
+  text-shadow: none;
 }
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {

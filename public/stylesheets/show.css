@@ -7,12 +7,31 @@ body {
 }
 
 .navbar-brand {
-    color: #92324b;
+    color:#329279;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #000;
 }
-a {
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
     color: #329279;
-    
+    background-color: transparent;
 }
+
+
+.navbar-nav li a {
+    color:  #dec1c9;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #000;
+    font-size: 25px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    color: #dec1c9;
+    background-color: transparent;
+}
+
+
 .btn-primary {
   background: #92324b;
   border-color: #7f2b41;
@@ -28,6 +47,9 @@ a {
        border-color: #7f2b41;
 }
 
+#background-img {
+    margin-top: 1.5%;
+}
 /******************CAMPGROUNDS*****************************/
 
 .thumbnail {
@@ -41,12 +63,6 @@ a {
 
 .thumbnail .caption-full {
     padding: 9px;
-}
-
-.btn-outline {
-    background-color: transparent;
-    color: inherit;
-    transition: all .5s;
 }
 
 #delete-form {
@@ -72,6 +88,10 @@ a {
   margin-top: 30px;
 }
 
+.fa-reddit {
+    color: #FF4500;
+}
+
 .footer p {
     float: left;
 }
@@ -91,17 +111,14 @@ a {
     color: #FF6600;
 }
 
-.fa-vine {
-    color: #00a478;
+.fa-snapchat {
+    color: #FFFC00;
 }
 
 .fa-flickr {
     color: #ff0084;
 }
 
-.fa-linkedin {
-    color: #007bb6;
-}
 
 .fa {
     opacity: 0.7;

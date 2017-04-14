@@ -3,38 +3,16 @@ html {
   min-height: 100%;
 }
 body {
-     background-image: url(https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?dpr=2&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=&bg=);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+     background: rgb(252,249,241);
 }
 
 .navbar-brand {
-    color: #fcf9f1;
+    color: #92324b;
 }
-
 a {
-    color: #fcf9f1;
+    color: #329279;
     
 }
-
-.jumbotron {
-   background: rgba(146,50,75, 0.3);
-   color:  #fcf9f1!important;
-}
-
-.header-intro {
-    color: #329279;
-}
-
-.header-logo {
-    font-size: 145%;
-}
-
 .btn-primary {
   background: #92324b;
   border-color: #7f2b41;
@@ -43,6 +21,11 @@ a {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: #b83f5f !important;
      border-color: #7f2b41 !important;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+       background: #b83f5f; 
+       border-color: #7f2b41;
 }
 
 /******************CAMPGROUNDS*****************************/
@@ -83,9 +66,10 @@ a {
   position: relative;
   bottom: 0;
   height: 100px;
-  background-color: rgba(29,10,15, 0.4);
+  background-color: transparent;
   text-align: center;
   padding-top: 20px;
+  margin-top: 30px;
 }
 
 .footer p {

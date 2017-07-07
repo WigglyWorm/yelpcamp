@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body { 
     background-image: url(https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?dpr=2&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=&bg=);
     background-repeat: no-repeat;
@@ -8,3 +13,128 @@ body {
     -moz-background-size: cover;
     -webkit-background-size: cover;
 }
+.navbar-brand {
+    color: #fcf9f1;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 3px 3px 0px #000;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
+    color: #dec1c9;
+    background-color: transparent;
+}
+
+
+.navbar-nav li a {
+    color: #fcf9f1;
+    font-weight: bold;
+    text-shadow: 3px 3px 0px #000;
+    font-size: 25px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    color: #dec1c9;
+    background-color: transparent;
+}
+a {
+    color: #fcf9f1;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+
+.jumbotron {
+   background: rgba(146,50,75, 0.3);
+   color:  #fcf9f1!important;
+    font-weight: bold;
+    text-shadow: 3px 3px 0px #000;
+}
+
+.header-intro {
+    color: #329279;
+    font-weight: bold;
+    text-shadow: 3px 3px 0px #000;
+}
+
+.header-logo {
+    font-size: 145%;
+    text-shadow: 3px 3px 0px #000;
+    font-weight: bold;
+}
+
+.btn-primary {
+  background: #92324b;
+  border-color: #7f2b41;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #b83f5f !important;
+     border-color: #7f2b41 !important;
+}
+
+
+/*************FOOTER***********************************/
+
+
+.footer {
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  background-color: transparent;
+  /*background-color: rgba(29,10,15, 0.4);*/
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer p {
+    float: left;
+}
+.fa-reddit {
+    color: #FF4500;
+}
+
+.footer p {
+    float: left;
+}
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-rss {
+    color: #FF6600;
+}
+
+.fa-snapchat {
+    color: #FFFC00;
+}
+
+.fa-flickr {
+    color: #ff0084;
+}
+
+
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+}    
+    
